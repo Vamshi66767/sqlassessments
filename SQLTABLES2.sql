@@ -1,0 +1,9 @@
+Create database VamshiNagelli;
+
+use VamshiNagelli;
+
+CREATE TABLE CUST(CNUM NUMERIC(5) PRIMARY KEY,  CNAME CHAR(20),  CITY CHAR(20), RATING NUMERIC(3),SNUM NUMERIC(4));
+
+INSERT INTO CUST VALUES (2001, 'Hoffman', 'London',100,1001); 
+INSERT INTO CUST VALUES (2002, 'Giovanne', 'Rome',200,1003); 
+ 
