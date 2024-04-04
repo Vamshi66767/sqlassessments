@@ -38,4 +38,28 @@ SELECT CNUM, MIN(AMT) FROM VAMSHINAGELLIS GROUP BY CNUM;
 
 SELECT MIN(CNAME) FROM CUST WHERE CNAME LIKE 'G%';
 
+SELECT ' FOR THE CITY (' || CITY ||'), THE HIGHEST RATING IS : (' || MAX(RATING) ||')' FROM CUST GROUP BY CITY;
+
+Select odate, count(onum) from VAMSHINAGELLIS group by odate order by count(onum); 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
